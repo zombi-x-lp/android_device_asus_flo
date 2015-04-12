@@ -14,8 +14,4 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_flo.mk \
-    $(LOCAL_DIR)/full_flo.mk \
-    $(LOCAL_DIR)/zombi_flo.mk
-
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/zombi_flo.mk
